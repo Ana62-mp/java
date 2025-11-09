@@ -3,12 +3,16 @@ package com.krakedev;
 public class TestCuadrado {
 
 	public static void main(String[] args) {
-		Cuadrado c1 = new Cuadrado();
-		Cuadrado c2 = new Cuadrado();
-		Cuadrado c3 = new Cuadrado();
+		Cuadrado c1 = new Cuadrado(4);
+		Cuadrado c2 = new Cuadrado(5);
+		Cuadrado c3 = new Cuadrado(3);
+		Cuadrado c4 = new Cuadrado(7);
+		
 		double areaC1;
 		double areaC2;
 		double areaC3;
+		double areaC4;
+		
 		double perimetroC1;
 		double perimetroC2;
 		double perimetroC3;
@@ -20,6 +24,7 @@ public class TestCuadrado {
 		areaC1 = c1.calcularArea();
 		areaC2 = c2.calcularArea();
 		areaC3 = c3.calcularArea();
+		areaC4 = c4.calcularArea();
 		
 		perimetroC1 = c1.calcularPerimetro();
 		perimetroC2 = c2.calcularPerimetro();
@@ -28,6 +33,7 @@ public class TestCuadrado {
 		System.out.println("AREA C1: " + areaC1);
 		System.out.println("AREA C2: " + areaC2);
 		System.out.println("AREA C3: " + areaC3);
+		System.out.println("AREA C4: " + areaC4);
 		System.out.println("PERIMETRO C1: " + perimetroC1);
 		System.out.println("PERIMETRO C2: " + perimetroC2);
 		System.out.println("PERIMETRO C3: " + perimetroC3);
