@@ -1,0 +1,17 @@
+package com.krakedev;
+
+public class Rectangulo {
+	public int base;
+	public int altura;
+	
+	public int calcularArea() { //no recibe parametros porque tiene atributos
+		int area = base*altura;
+		return area;
+		
+	}
+	
+	public double calcularPerimetro() {
+		double perimetro = (2*base) + (2*altura);
+		return perimetro;
+	}
+}
