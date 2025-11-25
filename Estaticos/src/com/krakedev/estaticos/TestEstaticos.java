@@ -1,0 +1,16 @@
+package com.krakedev.estaticos;
+
+public class TestEstaticos {
+
+	public static void main(String[] args) {
+		//estaticos son metodos que pertenece a la clase
+		//para invocar metodo estatico se lo hace directamente desde la clase
+		//NO hace falta instanciar como los metodos que perteneces a un objeto.
+		double numero = Math.random();
+		System.out.println(numero);
+		int radio = 10;
+		double area = Math.PI*radio;
+		System.out.println(area);
+	}
+
+}
